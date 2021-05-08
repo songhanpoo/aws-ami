@@ -1,0 +1,10 @@
+POST http://localhost:3000/v1/aws/ami
+Content-Type: application/json
+
+{
+  "region":"test",
+  "apiVersion":"1.0.1",
+  "InstanceId":"id123123123",
+  "Name":"hhhh",
+  "Description":"this is test"
+}
